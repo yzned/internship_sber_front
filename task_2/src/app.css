@@ -46,7 +46,13 @@ h1 {
   padding: 2rem;
   text-align: center;
 }
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
